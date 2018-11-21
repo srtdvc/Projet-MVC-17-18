@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Authentification</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+<div class="login">
+<form>
+	<fieldset>
+	<legend>Compte</legend>
+			<p>
+				<label for="identifiant">Identifiant : </label>
+				<input type="text" name="id" id="id" autofocus required size="20" maxlength="10" />
+
+			</p>
+			<p>
+				<label for="mdp">Mot de passe : </label>
+				<input type="password" name="pass" id="pass"  required size="20" maxlength="10" />
+
+			</p>
+		
+	</fieldset>
+	<p>
+		<input type="submit" value="Se connecter"/>
+		<input type="reset" value="Recommencer"/>
+	</p>
+	
+	<?php echo $contenu ?>
+</form>
+</div>
+
+</body>
+</html>

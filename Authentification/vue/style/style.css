@@ -1,0 +1,145 @@
+body,html{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #FFFFF0;
+	text-align:center;
+}
+strong{
+	text-align: center;
+}
+
+p{
+	text-align:justify;
+}
+
+header{
+	background-color:#09C; 
+	height:12%; 
+	width:100%;
+}
+
+header div.logo{
+	vertical-align: middle;
+	display: inline-block;
+	margin-left:8%;
+}
+
+
+form{
+	margin: auto;
+	width: 75%;
+}
+
+
+
+fieldset{
+	background-color: rgb(247,247,247);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border-color: #CCC solid 1px;
+
+}
+
+fieldset:hover{
+	box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+}
+
+fieldset.legend{
+	padding: 0px 10px;
+	color: #237DAC;
+	border-right: #CCC 1px solid;
+	border-left: #CCC 1px solid;
+}
+
+label{
+	background-color: #000;
+	color: #FFF;
+	display: block;
+	width: 39%;
+	float:left;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-left: 4%;
+	text-align: right;
+
+}
+
+label.pas_de_style{
+	background: none;
+}
+
+label:not(.pas_de_style){
+	border-radius: 3px;
+}
+
+input{
+	border-radius: 3px;
+}
+
+label:hover{
+	font-size:bold;
+}
+
+input, select{
+	color:#414A51;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	font-size:14px;
+	margin-left: 1%;
+	width: 48%;
+	border-color: #CCC 1px solid; 
+	transition: all 0.25s linear;
+}
+input:focus{
+	width: 39%;
+	box-shadow: 0 0 5px #6495ED;
+}
+
+select:focus{
+	width: 39%;
+	box-shadow: 0 0 5px #6495ED;
+}
+
+input[type="reset"], input[type="submit"], input[type="button"]{
+	width: 23%;
+	background-color:#000;
+	color: #FFF;
+	letter-spacing: 1px;
+	border-radius: 1px;
+	transition: all 0.2s linear;
+	min-width: 20px;
+	border-color: #DDEEFF;
+	font-size: 1px solid;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover, input[type="button"]:hover{
+	background-color:#87CEFA;
+	color:#414A51;
+	box-shadow:0 0 5px #6495ED;
+}
+
+input[type="number"]{
+	-moz-appearance:textfield;
+}
+
+input:not([type="submit"]):invalid{
+	box-shadow: 0 0 5px #6495ED;
+	background:url(rouge3.png) right top  no-repeat;
+}
+
+input:not([type="submit"]):valid{
+	box-shadow: 0 0 5px #6495ED;
+	background:url(vert3.png) right top no-repeat;
+}
+
+footer{
+	margin-top: 10%;
+	text-align: center;
+}
